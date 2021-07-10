@@ -1,0 +1,10 @@
+#PROD environment
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: <driver>
+    url: <url>
+    username: <user>
+    password: <password>
