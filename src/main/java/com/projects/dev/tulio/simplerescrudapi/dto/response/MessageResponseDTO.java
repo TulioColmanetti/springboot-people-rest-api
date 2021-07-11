@@ -1,4 +1,4 @@
-package com.projects.dev.tulio.simplerescrudapi.dto;
+package com.projects.dev.tulio.simplerescrudapi.dto.response;
 
 import lombok.Builder;
 import lombok.Data;
