@@ -2,6 +2,7 @@ package com.projects.dev.tulio.simplerescrudapi.service;
 
 import com.projects.dev.tulio.simplerescrudapi.dto.response.MessageResponseDTO;
 import com.projects.dev.tulio.simplerescrudapi.dto.request.PersonDTO;
+import com.projects.dev.tulio.simplerescrudapi.exception.PersonNotFoundException;
 import com.projects.dev.tulio.simplerescrudapi.mapper.PersonMapper;
 import com.projects.dev.tulio.simplerescrudapi.model.Person;
 import com.projects.dev.tulio.simplerescrudapi.repository.PersonRepository;
@@ -9,6 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service
@@ -39,5 +41,13 @@ public class PersonService {
         return allPeople.stream()
                 .map(personMapper::toDTO)
                 .collect(Collectors.toList());
+    }
+
+    public PersonDTO findById(Long id) throws PersonNotFoundException {
+        Optional<Person> optionalPerson = personRepository.findById(id);
+        if(optionalPerson.isEmpty()){
+            throw new PersonNotFoundException(id);
+        }
+        return personMapper.toDTO(optionalPerson.get());
     }
 }
