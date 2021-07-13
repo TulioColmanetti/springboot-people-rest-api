@@ -7,9 +7,9 @@ spring:
     add-properties: false
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/peopledb
-    username: ${JDBC_DATABASE_USERNAME}
-    password: ${JDBC_DATABASE_PASSWORD}
+    url: <url>
+    username: <user>
+    password: <password>
   jpa:
     hibernate:
       ddl-auto: update
