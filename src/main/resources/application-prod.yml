@@ -3,8 +3,17 @@ server:
   port: 8080
 
 spring:
+  devtools:
+    add-properties: false
   datasource:
-    driver-class-name: <driver>
-    url: <url>
-    username: <user>
-    password: <password>
+    driver-class-name: org.postgresql.Driver
+    url: ${JDBC_DATABASE_URL}
+    username: ${JDBC_DATABASE_USERNAME}
+    password: ${JDBC_DATABASE_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
