@@ -13,6 +13,7 @@ public class PersonUtils {
     private static final String CPF_NUMBER = "298.115.950-03";
     private static final long PERSON_ID = 1L;
     public static final LocalDate BIRTH_DATE = LocalDate.of(1999, 4, 1);
+    private static final String EMAIL = "tulio@test.com";
 
     public static PersonDTO createFakeDTO() {
         return PersonDTO.builder()
@@ -20,6 +21,7 @@ public class PersonUtils {
                 .lastName(LAST_NAME)
                 .cpf(CPF_NUMBER)
                 .birthDate("01-04-1999")
+                .email(EMAIL)
                 .phones(Collections.singletonList(PhoneUtils.createFakeDTO()))
                 .build();
     }
@@ -31,6 +33,7 @@ public class PersonUtils {
                 .lastName(LAST_NAME)
                 .cpf(CPF_NUMBER)
                 .birthDate(BIRTH_DATE)
+                .email(EMAIL)
                 .phones(Collections.singletonList(PhoneUtils.createFakeEntity()))
                 .build();
     }
