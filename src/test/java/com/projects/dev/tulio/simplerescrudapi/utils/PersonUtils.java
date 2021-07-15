@@ -23,6 +23,7 @@ public class PersonUtils {
                 .birthDate("01-04-1999")
                 .email(EMAIL)
                 .phones(Collections.singletonList(PhoneUtils.createFakeDTO()))
+                .addresses(Collections.singletonList(AddressUtils.createFakeDTO()))
                 .build();
     }
 
@@ -35,6 +36,7 @@ public class PersonUtils {
                 .birthDate(BIRTH_DATE)
                 .email(EMAIL)
                 .phones(Collections.singletonList(PhoneUtils.createFakeEntity()))
+                .addresses(Collections.singletonList(AddressUtils.createFakeEntity()))
                 .build();
     }
 }
