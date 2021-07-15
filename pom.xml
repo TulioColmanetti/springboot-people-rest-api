@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.projects.dev.tulio</groupId>
-	<artifactId>simple-res-crud-api</artifactId>
+	<artifactId>springboot-people-rest-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>simple-res-crud-api</name>
-	<description>Simple resource CRUD API using Spring Boot</description>
+	<name>springboot-people-rest-api</name>
+	<description>REST API using Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
