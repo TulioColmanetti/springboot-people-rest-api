@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
 import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.Size;
+import javax.validation.constraints.Pattern;
 
 @Data
 @Builder
@@ -23,6 +23,6 @@ public class PhoneDTO {
     private PhoneType type;
 
     @NotEmpty
-    @Size(min = 13, max = 14)
+    @Pattern(regexp = "\\(\\d{2}\\)( )?\\d{4,5}-\\d{4}")
     private String number;
 }

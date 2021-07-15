@@ -6,7 +6,7 @@ import com.projects.dev.tulio.simplerescrudapi.model.Phone;
 
 public class PhoneUtils {
 
-    private static final String PHONE_NUMBER = "1199999-9999";
+    private static final String PHONE_NUMBER = "(11)99999-9999";
     private static final PhoneType PHONE_TYPE = PhoneType.MOBILE;
     private static final long PHONE_ID = 1L;
 
