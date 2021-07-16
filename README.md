@@ -24,6 +24,16 @@ An overview of data structure and relationships is presented on the following ER
 - [x] Unit tests for create person service;
 - [x] Configuration of two exchangeable environments: DEV and PROD;
 
+### Technologies Used
+
+- Java 11 (development language);
+- Maven (dependency management);
+- Intellj IDEA Community Edition (IDE);
+- Git and GitHub (source code versioning control);
+- H2 database (in-memory persistence on DEV environment);
+- PostgreSQL database (persistence on PROD environment);
+- Heroku cloud-platform (application deployment);
+
 ### Dependencies
 
 Spring Boot project was created using Spring Initializr. Required dependencies are listed below and can also be found on this [link](https://start.spring.io/#!type=maven-project&language=java&platformVersion=2.5.2.RELEASE&packaging=jar&jvmVersion=11&groupId=com.projects.dev.tulio&artifactId=simple-res-crud-api&name=simple-res-crud-api&description=Simple%20resource%20CRUD%20API%20using%20Spring%20Boot&packageName=com.projects.dev.tulio.simple-res-crud-api&dependencies=devtools,lombok,web,data-jpa,actuator,h2):
@@ -64,16 +74,6 @@ For running the complete test suite, just run the following command:
 ```shell script
 mvn clean test
 ```
-
-### Technologies Used
-
-- Java 11 (development language);
-- Maven (dependency management); 
-- Intellj IDEA Community Edition (IDE);
-- Git and GitHub (source code versioning control);
-- H2 database (in-memory persistence on DEV environment);
-- PostgreSQL database (persistence on PROD environment);
-- Heroku cloud-platform (application deployment);
 
 ### Acknowledgments
 
