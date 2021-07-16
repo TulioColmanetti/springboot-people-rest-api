@@ -75,18 +75,6 @@ For running the complete test suite, just run the following command:
 mvn clean test
 ```
 
-### Acknowledgments
-
-Many thanks to [Digital Innovation One](https://www.linkedin.com/company/digitalinnovation-one/) and [GFT Group](https://www.linkedin.com/company/gft-group/) for this great course, which provided the foundations for developing this project!
-
-Special thanks also for the course instructors:
-- [Rodrigo D'Agostini Peleias](https://www.linkedin.com/in/rodrigopeleias/)
-- [Daniel Robert Costa](https://www.linkedin.com/in/danielrc/)
-- [Camila Cavalcante](https://www.linkedin.com/in/cami-la/)
-- [Rodrigo Tassini](https://www.linkedin.com/in/rodrigo-tassini-2b37699/)
-- [João Paulo Oliveira Santos](https://www.linkedin.com/in/desenvolvedorjoaopaulo/)
-- [Otávio Reis Perkles](https://www.linkedin.com/in/operkles/)
-
 ### Useful Links
 
 - [Intellij Shortcuts Pallete](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf)
@@ -98,3 +86,15 @@ Special thanks also for the course instructors:
 - [Richardson Maturity Model](https://restfulapi.net/richardson-maturity-model/)
 - [Martin Fowler's Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html#TheImportanceOftestAutomation)
 - [Spring Boot App Deploy on Heroku](https://devcenter.heroku.com/articles/deploying-spring-boot-apps-to-heroku)
+
+### Acknowledgments
+
+Many thanks to [Digital Innovation One](https://www.linkedin.com/company/digitalinnovation-one/) and [GFT Group](https://www.linkedin.com/company/gft-group/) for this great course, which provided the foundations for developing this project!
+
+Special thanks also for the course instructors:
+- [Rodrigo D'Agostini Peleias](https://www.linkedin.com/in/rodrigopeleias/)
+- [Daniel Robert Costa](https://www.linkedin.com/in/danielrc/)
+- [Camila Cavalcante](https://www.linkedin.com/in/cami-la/)
+- [Rodrigo Tassini](https://www.linkedin.com/in/rodrigo-tassini-2b37699/)
+- [João Paulo Oliveira Santos](https://www.linkedin.com/in/desenvolvedorjoaopaulo/)
+- [Otávio Reis Perkles](https://www.linkedin.com/in/operkles/)
