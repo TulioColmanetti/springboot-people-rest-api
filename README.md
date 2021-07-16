@@ -10,19 +10,19 @@ The purpose of this project was to develop an API REST using Spring Framework fo
 
 An overview of data structure and relationships is presented on the following ERD:
 
-[!ERD of people data](./img/erd-people-db.png)
+![ERD of people data](./img/erd-people-db.png)
 
 ### Functionalities Implemented
 
-- Create, read, update and delete services for people data, through a REST API with **Level Two** maturity according to Richardson Maturity Model;
-- Data validation decoupled from entities using DTO pattern;
-- Validation of data fields listed below using pattern/regex before persistence:
-    - Email
-    - Phone Number
-    - CEP
-- Persistence of all people data received through API requests;
-- Unit tests for create person service;
-- Configuration of two exchangeable environments: DEV and PROD;
+- [x] Create, read, update and delete services for people data, through a REST API with **Level Two** maturity according to Richardson Maturity Model;
+- [x] Data validation decoupled from entities using DTO pattern;
+- [x] Validation of data fields listed below using pattern/regex before persistence:
+  - [x] Email
+  - [x] Phone Number
+  - [x] CEP
+- [x] Persistence of all people data received through API HTTP requests;
+- [x] Unit tests for create person service;
+- [x] Configuration of two exchangeable environments: DEV and PROD;
 
 ### Dependencies
 
