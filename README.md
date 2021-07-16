@@ -80,7 +80,12 @@ mvn clean test
 Many thanks to [Digital Innovation One](https://www.linkedin.com/company/digitalinnovation-one/) and [GFT Group](https://www.linkedin.com/company/gft-group/) for this great course, which provided the foundations for developing this project!
 
 Special thanks also for the course instructors:
-- [instructor1](instructor1)
+- [Rodrigo D'Agostini Peleias](https://www.linkedin.com/in/rodrigopeleias/)
+- [Daniel Robert Costa](https://www.linkedin.com/in/danielrc/)
+- [Camila Cavalcante](https://www.linkedin.com/in/cami-la/)
+- [Rodrigo Tassini](https://www.linkedin.com/in/rodrigo-tassini-2b37699/)
+- [João Paulo Oliveira Santos](https://www.linkedin.com/in/desenvolvedorjoaopaulo/)
+- [Otávio Reis Perkles](https://www.linkedin.com/in/operkles/)
 
 ### Useful Links
 
